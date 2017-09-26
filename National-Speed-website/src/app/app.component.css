@@ -1,5 +1,54 @@
-h1 {
-  color: #369;
+.logo {
+	/*margin-top: 2rem;*/
+	text-align: center;
+	background-image: url('../assets/images/burnout.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+
+.logo img {
+	margin-top: 2rem;
+}
+
+h3 {
+  color: #000;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 250%;
+  letter-spacing: .75px;
+  font-size: 18pt;
+  margin-top: 0;
+  padding-top: .3rem;
+  margin-bottom: 0px;
+}
+
+.social {
+	padding-left: 0px;
+	margin: 0px;
+	height: 50px;
+}
+
+.social li {
+	list-style: none;
+	display: inline-block;
+}
+
+.social li img {
+	height: 40px;
+	margin-top: 0px;
+	padding: 5px;
+}
+
+.social li img:hover {
+	cursor: pointer;
+}
+
+.arrow {
+	text-align: center;
+	padding-top: 1rem;
+}
+
+.arrow img {
+	margin-top: 0px;
 }
