@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   tagline = 'High Performance Automotive Center';
+  number = '(910) 332-5901';
+
 }
